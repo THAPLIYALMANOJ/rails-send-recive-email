@@ -11,7 +11,7 @@ include MailForm::Delivery
   def headers
     {
       :subject => "My Contact Form",
-      :to => "mnjthapliyal@gmail.com",
+      :to => "youre-recive-email-address.com",
       :from => %("#{name}" <#{email}>)
     }
   end
